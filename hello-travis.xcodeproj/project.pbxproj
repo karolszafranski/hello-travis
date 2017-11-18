@@ -18,7 +18,7 @@
 		0D5EA69D1FC07015002E4B78 /* MyIPAddressKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5EA68D1FC07015002E4B78 /* MyIPAddressKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D5EA6A01FC07015002E4B78 /* MyIPAddressKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5EA68B1FC07015002E4B78 /* MyIPAddressKit.framework */; };
 		0D5EA6A11FC07015002E4B78 /* MyIPAddressKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5EA68B1FC07015002E4B78 /* MyIPAddressKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0D5EA6AB1FC07050002E4B78 /* IPAddressRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5EA6A91FC07050002E4B78 /* IPAddressRequest.h */; };
+		0D5EA6AB1FC07050002E4B78 /* IPAddressRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5EA6A91FC07050002E4B78 /* IPAddressRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D5EA6AC1FC07050002E4B78 /* IPAddressRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5EA6AA1FC07050002E4B78 /* IPAddressRequest.m */; };
 		0D5EA6B01FC0736D002E4B78 /* IPAddressRequstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5EA6AF1FC0736D002E4B78 /* IPAddressRequstTests.m */; };
 		0D5EA6B31FC07452002E4B78 /* MockedNSURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5EA6B21FC07452002E4B78 /* MockedNSURLSession.m */; };
@@ -254,7 +254,7 @@
 				TargetAttributes = {
 					0D5EA66C1FC06D27002E4B78 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					0D5EA68A1FC07015002E4B78 = {
 						CreatedOnToolsVersion = 9.1;
@@ -491,11 +491,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "hello-travis/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.dstrct.hello-travis";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -504,11 +506,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "hello-travis/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.dstrct.hello-travis";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
