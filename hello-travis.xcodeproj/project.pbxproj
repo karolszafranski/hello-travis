@@ -13,7 +13,54 @@
 		0D5EA67A1FC06D27002E4B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5EA6791FC06D27002E4B78 /* Assets.xcassets */; };
 		0D5EA67D1FC06D27002E4B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5EA67B1FC06D27002E4B78 /* LaunchScreen.storyboard */; };
 		0D5EA6801FC06D27002E4B78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5EA67F1FC06D27002E4B78 /* main.m */; };
+		0D5EA6941FC07015002E4B78 /* MyIPAddressKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5EA68B1FC07015002E4B78 /* MyIPAddressKit.framework */; };
+		0D5EA69B1FC07015002E4B78 /* MyIPAddressKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5EA69A1FC07015002E4B78 /* MyIPAddressKitTests.m */; };
+		0D5EA69D1FC07015002E4B78 /* MyIPAddressKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5EA68D1FC07015002E4B78 /* MyIPAddressKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D5EA6A01FC07015002E4B78 /* MyIPAddressKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5EA68B1FC07015002E4B78 /* MyIPAddressKit.framework */; };
+		0D5EA6A11FC07015002E4B78 /* MyIPAddressKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5EA68B1FC07015002E4B78 /* MyIPAddressKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0D5EA6AB1FC07050002E4B78 /* IPAddressRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5EA6A91FC07050002E4B78 /* IPAddressRequest.h */; };
+		0D5EA6AC1FC07050002E4B78 /* IPAddressRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5EA6AA1FC07050002E4B78 /* IPAddressRequest.m */; };
+		0D5EA6B01FC0736D002E4B78 /* IPAddressRequstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5EA6AF1FC0736D002E4B78 /* IPAddressRequstTests.m */; };
+		0D5EA6B31FC07452002E4B78 /* MockedNSURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5EA6B21FC07452002E4B78 /* MockedNSURLSession.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D5EA6951FC07015002E4B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5EA6651FC06D27002E4B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D5EA68A1FC07015002E4B78;
+			remoteInfo = MyIPAddressKit;
+		};
+		0D5EA6971FC07015002E4B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5EA6651FC06D27002E4B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D5EA66C1FC06D27002E4B78;
+			remoteInfo = "hello-travis";
+		};
+		0D5EA69E1FC07015002E4B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5EA6651FC06D27002E4B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D5EA68A1FC07015002E4B78;
+			remoteInfo = MyIPAddressKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D5EA6A51FC07015002E4B78 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0D5EA6A11FC07015002E4B78 /* MyIPAddressKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0D5EA66D1FC06D27002E4B78 /* hello-travis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-travis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +73,17 @@
 		0D5EA67C1FC06D27002E4B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D5EA67E1FC06D27002E4B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D5EA67F1FC06D27002E4B78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D5EA68B1FC07015002E4B78 /* MyIPAddressKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyIPAddressKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5EA68D1FC07015002E4B78 /* MyIPAddressKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyIPAddressKit.h; sourceTree = "<group>"; };
+		0D5EA68E1FC07015002E4B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5EA6931FC07015002E4B78 /* MyIPAddressKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyIPAddressKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5EA69A1FC07015002E4B78 /* MyIPAddressKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyIPAddressKitTests.m; sourceTree = "<group>"; };
+		0D5EA69C1FC07015002E4B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5EA6A91FC07050002E4B78 /* IPAddressRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAddressRequest.h; sourceTree = "<group>"; };
+		0D5EA6AA1FC07050002E4B78 /* IPAddressRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAddressRequest.m; sourceTree = "<group>"; };
+		0D5EA6AF1FC0736D002E4B78 /* IPAddressRequstTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAddressRequstTests.m; sourceTree = "<group>"; };
+		0D5EA6B11FC07452002E4B78 /* MockedNSURLSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockedNSURLSession.h; sourceTree = "<group>"; };
+		0D5EA6B21FC07452002E4B78 /* MockedNSURLSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockedNSURLSession.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +91,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5EA6A01FC07015002E4B78 /* MyIPAddressKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5EA6871FC07015002E4B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5EA6901FC07015002E4B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5EA6941FC07015002E4B78 /* MyIPAddressKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				0D5EA66F1FC06D27002E4B78 /* hello-travis */,
+				0D5EA68C1FC07015002E4B78 /* MyIPAddressKit */,
+				0D5EA6991FC07015002E4B78 /* MyIPAddressKitTests */,
 				0D5EA66E1FC06D27002E4B78 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				0D5EA66D1FC06D27002E4B78 /* hello-travis.app */,
+				0D5EA68B1FC07015002E4B78 /* MyIPAddressKit.framework */,
+				0D5EA6931FC07015002E4B78 /* MyIPAddressKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,7 +149,42 @@
 			path = "hello-travis";
 			sourceTree = "<group>";
 		};
+		0D5EA68C1FC07015002E4B78 /* MyIPAddressKit */ = {
+			isa = PBXGroup;
+			children = (
+				0D5EA68D1FC07015002E4B78 /* MyIPAddressKit.h */,
+				0D5EA68E1FC07015002E4B78 /* Info.plist */,
+				0D5EA6A91FC07050002E4B78 /* IPAddressRequest.h */,
+				0D5EA6AA1FC07050002E4B78 /* IPAddressRequest.m */,
+			);
+			path = MyIPAddressKit;
+			sourceTree = "<group>";
+		};
+		0D5EA6991FC07015002E4B78 /* MyIPAddressKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D5EA69A1FC07015002E4B78 /* MyIPAddressKitTests.m */,
+				0D5EA6AF1FC0736D002E4B78 /* IPAddressRequstTests.m */,
+				0D5EA6B11FC07452002E4B78 /* MockedNSURLSession.h */,
+				0D5EA6B21FC07452002E4B78 /* MockedNSURLSession.m */,
+				0D5EA69C1FC07015002E4B78 /* Info.plist */,
+			);
+			path = MyIPAddressKitTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D5EA6881FC07015002E4B78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5EA6AB1FC07050002E4B78 /* IPAddressRequest.h in Headers */,
+				0D5EA69D1FC07015002E4B78 /* MyIPAddressKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0D5EA66C1FC06D27002E4B78 /* hello-travis */ = {
@@ -81,15 +194,54 @@
 				0D5EA6691FC06D27002E4B78 /* Sources */,
 				0D5EA66A1FC06D27002E4B78 /* Frameworks */,
 				0D5EA66B1FC06D27002E4B78 /* Resources */,
+				0D5EA6A51FC07015002E4B78 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0D5EA69F1FC07015002E4B78 /* PBXTargetDependency */,
 			);
 			name = "hello-travis";
 			productName = "hello-travis";
 			productReference = 0D5EA66D1FC06D27002E4B78 /* hello-travis.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0D5EA68A1FC07015002E4B78 /* MyIPAddressKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5EA6A21FC07015002E4B78 /* Build configuration list for PBXNativeTarget "MyIPAddressKit" */;
+			buildPhases = (
+				0D5EA6861FC07015002E4B78 /* Sources */,
+				0D5EA6871FC07015002E4B78 /* Frameworks */,
+				0D5EA6881FC07015002E4B78 /* Headers */,
+				0D5EA6891FC07015002E4B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyIPAddressKit;
+			productName = MyIPAddressKit;
+			productReference = 0D5EA68B1FC07015002E4B78 /* MyIPAddressKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0D5EA6921FC07015002E4B78 /* MyIPAddressKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5EA6A61FC07015002E4B78 /* Build configuration list for PBXNativeTarget "MyIPAddressKitTests" */;
+			buildPhases = (
+				0D5EA68F1FC07015002E4B78 /* Sources */,
+				0D5EA6901FC07015002E4B78 /* Frameworks */,
+				0D5EA6911FC07015002E4B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D5EA6961FC07015002E4B78 /* PBXTargetDependency */,
+				0D5EA6981FC07015002E4B78 /* PBXTargetDependency */,
+			);
+			name = MyIPAddressKitTests;
+			productName = MyIPAddressKitTests;
+			productReference = 0D5EA6931FC07015002E4B78 /* MyIPAddressKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -103,6 +255,15 @@
 					0D5EA66C1FC06D27002E4B78 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+					};
+					0D5EA68A1FC07015002E4B78 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					0D5EA6921FC07015002E4B78 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D5EA66C1FC06D27002E4B78;
 					};
 				};
 			};
@@ -120,6 +281,8 @@
 			projectRoot = "";
 			targets = (
 				0D5EA66C1FC06D27002E4B78 /* hello-travis */,
+				0D5EA68A1FC07015002E4B78 /* MyIPAddressKit */,
+				0D5EA6921FC07015002E4B78 /* MyIPAddressKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +295,20 @@
 				0D5EA67D1FC06D27002E4B78 /* LaunchScreen.storyboard in Resources */,
 				0D5EA67A1FC06D27002E4B78 /* Assets.xcassets in Resources */,
 				0D5EA6781FC06D27002E4B78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5EA6891FC07015002E4B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5EA6911FC07015002E4B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +325,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0D5EA6861FC07015002E4B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5EA6AC1FC07050002E4B78 /* IPAddressRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5EA68F1FC07015002E4B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5EA69B1FC07015002E4B78 /* MyIPAddressKitTests.m in Sources */,
+				0D5EA6B31FC07452002E4B78 /* MockedNSURLSession.m in Sources */,
+				0D5EA6B01FC0736D002E4B78 /* IPAddressRequstTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D5EA6961FC07015002E4B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D5EA68A1FC07015002E4B78 /* MyIPAddressKit */;
+			targetProxy = 0D5EA6951FC07015002E4B78 /* PBXContainerItemProxy */;
+		};
+		0D5EA6981FC07015002E4B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D5EA66C1FC06D27002E4B78 /* hello-travis */;
+			targetProxy = 0D5EA6971FC07015002E4B78 /* PBXContainerItemProxy */;
+		};
+		0D5EA69F1FC07015002E4B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D5EA68A1FC07015002E4B78 /* MyIPAddressKit */;
+			targetProxy = 0D5EA69E1FC07015002E4B78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0D5EA6761FC06D27002E4B78 /* Main.storyboard */ = {
@@ -300,6 +513,76 @@
 			};
 			name = Release;
 		};
+		0D5EA6A31FC07015002E4B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyIPAddressKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.dstrct.MyIPAddressKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D5EA6A41FC07015002E4B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyIPAddressKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.dstrct.MyIPAddressKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D5EA6A71FC07015002E4B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyIPAddressKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.dstrct.MyIPAddressKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello-travis.app/hello-travis";
+			};
+			name = Debug;
+		};
+		0D5EA6A81FC07015002E4B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyIPAddressKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.dstrct.MyIPAddressKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello-travis.app/hello-travis";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -317,6 +600,24 @@
 			buildConfigurations = (
 				0D5EA6841FC06D27002E4B78 /* Debug */,
 				0D5EA6851FC06D27002E4B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5EA6A21FC07015002E4B78 /* Build configuration list for PBXNativeTarget "MyIPAddressKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5EA6A31FC07015002E4B78 /* Debug */,
+				0D5EA6A41FC07015002E4B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5EA6A61FC07015002E4B78 /* Build configuration list for PBXNativeTarget "MyIPAddressKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5EA6A71FC07015002E4B78 /* Debug */,
+				0D5EA6A81FC07015002E4B78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
